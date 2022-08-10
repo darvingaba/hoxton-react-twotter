@@ -4,6 +4,7 @@ import { LeftMenu } from './components/LeftMenu'
 import { TweetContainer } from './components/TweetContainer';
 import { useLocation } from "react-router-dom";
 import {Profile} from './components/Profile'
+import { SingleTweet } from './components/SingleTweet';
 
 
 
@@ -32,6 +33,7 @@ console.log(pathname);
       <Route index  element={<TweetContainer />} />
       <Route path="/tweets" element={<TweetContainer/>} />
       <Route path="/profile" element={<Profile/>} />
+      <Route path="/tweets/:id" element={<SingleTweet/>} />
       </Routes>
       <div className="rightMenu"></div>
     </div>

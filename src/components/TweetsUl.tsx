@@ -3,6 +3,8 @@ import { AiOutlineRetweet } from "react-icons/ai";
 import { FcLike } from "react-icons/fc";
 import { FiShare } from "react-icons/fi";
 import { useState,useEffect } from "react";
+import { MailListTweet } from "./MainListTweet";
+import { Link } from "react-router-dom";
 
 
 type Tweet = {
@@ -21,15 +23,57 @@ export function TweetsUl() {
 
     let [tweets, getTweets] = useState<Tweet[]>([]);
 
-    fetch("http://localhost:3005/tweets")
-      .then((resp) => resp.json())
-      .then((tweetsFromServer) => getTweets(tweetsFromServer));
+
+  
+      // fetch("http://localhost:3005/tweets")
+      //   .then((resp) => resp.json())
+      //   .then((tweetsFromServer) => getTweets(tweetsFromServer));
+    
     
     useEffect(() => {
     fetch("http://localhost:3005/tweets")
       .then((resp) => resp.json())
       .then((tweetsFromServer) => getTweets(tweetsFromServer));
 } ,[]);
+
+function likeTweet(id: number) {
+  
+  let newTweets = structuredClone(tweets);
+  let tweet = newTweets.findIndex((tweet: Tweet) => tweet.id === id);
+
+  newTweets[tweet].likeCount+=1;
+  
+  fetch(`http://localhost:3005/tweets/${id}`, {
+    method: "PATCH",
+    headers: {
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify({
+      likeCount: newTweets[tweet].likeCount,
+    }),
+  })
+
+  
+  getTweets(newTweets);
+}
+function retweet( id: number) {
+  let newTweets = structuredClone(tweets);
+  let tweet = newTweets.findIndex((tweet:Tweet) => tweet.id === id);
+
+  newTweets[tweet].retweetCount++;
+  
+  fetch(`http://localhost:3005/tweets${id}`, {
+    method: "PATCH",
+    headers: {
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify({
+      retweetCount: newTweets[tweet].retweetCount,
+    })
+  })
+  getTweets(newTweets);
+
+}
 
 
 console.log(tweets);
@@ -39,41 +83,13 @@ console.log(tweets);
   return (
     <ul className="tweetList">
       {newReversedTweets.map((tweet) => (
-        <li className="oneTweet" key={tweet.id}>
-          <div className="image">
-            <img className="profilePic" src={tweet.profileImageUrl} alt="" />
-          </div>
-          <div className="tweetContent">
-            <div className="userInfo">
-              <h2 className="userName">{tweet.user}</h2>
-              <h2 className="userHandle">{tweet.userHandle}</h2>
-            </div>
-            <div className="usersTweet">
-              <p>{tweet.text}</p>
-              <div>
-                <ul className="retweetsAndStuff">
-                  <li>
-                    <a href="#" />
-                    <BiComment /> 2
-                  </li>
-                  <li>
-                    <a href="#" />
-                    <AiOutlineRetweet /> 2
-                  </li>
-                  <li>
-                    <a href="#" />
-                    <FcLike /> 2
-                  </li>
-                  <li>
-                    <a href="#" />
-                    <FiShare />
-                  </li>
-                </ul>
-              </div>
-              <div className="time">{tweet.created_at}</div>
-            </div>
-          </div>
-        </li>
+        <MailListTweet  
+        key={tweet.id}
+        tweet={tweet}
+        likeTweet={likeTweet}
+        retweet={retweet}
+
+        />
       ))}
     </ul>
   );

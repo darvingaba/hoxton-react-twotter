@@ -158,7 +158,39 @@ body{
   padding-top: 1rem;
   padding-left: 1rem;
 }
+.profilePictures{
+  
+  padding-top: 2rem;
+  padding-bottom:2rem;
+}
+.profilePictures{
+  display: grid;
+  grid-auto-flow: row;
+}
+profileBacground{
+  /* max-width: 100%; */
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 500px;
+  
+}
+.profilePicture{
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+}
 /* end of main menu */
 .rightMenu{
   background-color: #fff;
+}
+
+.singleTweet{
+  display: grid;
+  grid-auto-flow: row;
+  border: 1px solid rgba(0, 0, 0, 0.096);
+  padding-left: .5rem;
+  padding: 2rem 0;
+  height: 400px;
 }

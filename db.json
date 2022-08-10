@@ -7,8 +7,8 @@
       "user": "Darvin",
       "userHandle": "@Darvin",
       "profileImageUrl": "https://i.pinimg.com/474x/b3/d1/35/b3d135bcf65b8472e0021dda91083560.jpg",
-      "likeCount": 0,
-      "retweetCount": 0
+      "likeCount": 2,
+      "retweetCount": 4
     },
     {
       "created_at": "Wed Oct 10 20:19:24 +0000 2019",
@@ -17,88 +17,78 @@
       "user": "Gerald",
       "userHandle": "@Gerald",
       "profileImageUrl": "https://pbs.twimg.com/media/EiG7HYAUwAIidVG.jpg",
-      "likeCount": 0,
-      "retweetCount": 0
+      "likeCount": 6,
+      "retweetCount": 2
     },
     {
-      "text": "helloello",
-      "user": "John",
-      "userHandle": "@johnDoe",
+      "text": "I am writing a new tweet from this platform called Twotter",
+      "user": "Darvin",
+      "userHandle": "@Darvin",
       "profileImageUrl": "https://i.pinimg.com/474x/b3/d1/35/b3d135bcf65b8472e0021dda91083560.jpg",
-      "likeCount": 0,
+      "likeCount": 4,
       "retweetCount": 0,
       "id": 3,
-      "created_at": "8/10/2022 18:42:19"
+      "created_at": "8/10/2022 23:25:7"
     },
     {
-      "text": "helloello",
-      "user": "John",
-      "userHandle": "@johnDoe",
+      "text": "Hello",
+      "user": "Darvin",
+      "userHandle": "@Darvin",
       "profileImageUrl": "https://i.pinimg.com/474x/b3/d1/35/b3d135bcf65b8472e0021dda91083560.jpg",
       "likeCount": 0,
       "retweetCount": 0,
       "id": 4,
-      "created_at": "8/10/2022 18:43:48"
+      "created_at": "8/10/2022 23:29:31"
     },
     {
-      "text": "hi",
-      "user": "John",
-      "userHandle": "@johnDoe",
+      "text": "Hi",
+      "user": "Darvin",
+      "userHandle": "@Darvin",
       "profileImageUrl": "https://i.pinimg.com/474x/b3/d1/35/b3d135bcf65b8472e0021dda91083560.jpg",
       "likeCount": 0,
       "retweetCount": 0,
       "id": 5,
-      "created_at": "8/10/2022 18:59:36"
+      "created_at": "8/10/2022 23:32:52"
     },
     {
-      "text": "does this work",
-      "user": "John",
-      "userHandle": "@johnDoe",
+      "text": "is it working now",
+      "user": "Darvin",
+      "userHandle": "@Darvin",
       "profileImageUrl": "https://i.pinimg.com/474x/b3/d1/35/b3d135bcf65b8472e0021dda91083560.jpg",
-      "likeCount": 0,
+      "likeCount": 1,
       "retweetCount": 0,
       "id": 6,
-      "created_at": "8/10/2022 19:0:22"
+      "created_at": "8/10/2022 23:33:3"
     },
     {
-      "text": "how is it goign",
-      "user": "John",
-      "userHandle": "@johnDoe",
+      "text": "what about now",
+      "user": "Darvin",
+      "userHandle": "@Darvin",
       "profileImageUrl": "https://i.pinimg.com/474x/b3/d1/35/b3d135bcf65b8472e0021dda91083560.jpg",
-      "likeCount": 0,
+      "likeCount": 1,
       "retweetCount": 0,
       "id": 7,
-      "created_at": "8/10/2022 19:0:46"
+      "created_at": "8/10/2022 23:34:4"
     },
     {
-      "text": "how is it goign",
-      "user": "John",
-      "userHandle": "@johnDoe",
+      "text": "hello again",
+      "user": "Darvin",
+      "userHandle": "@Darvin",
       "profileImageUrl": "https://i.pinimg.com/474x/b3/d1/35/b3d135bcf65b8472e0021dda91083560.jpg",
-      "likeCount": 0,
+      "likeCount": 5,
       "retweetCount": 0,
       "id": 8,
-      "created_at": "8/10/2022 19:0:48"
+      "created_at": "8/11/2022 0:2:30"
     },
     {
-      "text": "how about now",
-      "user": "John",
-      "userHandle": "@johnDoe",
+      "text": "I DONT KNOW WHY IS NOT WORKING , I NEED TO REFRESH TO GET THE NEW TWEETS",
+      "user": "Darvin",
+      "userHandle": "@Darvin",
       "profileImageUrl": "https://i.pinimg.com/474x/b3/d1/35/b3d135bcf65b8472e0021dda91083560.jpg",
-      "likeCount": 0,
+      "likeCount": 1,
       "retweetCount": 0,
       "id": 9,
-      "created_at": "8/10/2022 19:1:55"
-    },
-    {
-      "text": "i think it is working",
-      "user": "John",
-      "userHandle": "@johnDoe",
-      "profileImageUrl": "https://i.pinimg.com/474x/b3/d1/35/b3d135bcf65b8472e0021dda91083560.jpg",
-      "likeCount": 0,
-      "retweetCount": 0,
-      "id": 10,
-      "created_at": "8/10/2022 19:2:8"
+      "created_at": "8/11/2022 1:3:26"
     }
   ]
 }

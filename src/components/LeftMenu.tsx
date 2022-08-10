@@ -15,9 +15,10 @@ export function LeftMenu() {
       <div className="leftMenuLinks">
         <ul className="leftMenuLinksList">
           <li>
-            <a href="#">
-              <img className="logo" src="./src/images/logo.png" />
-            </a>
+            <img
+              className="logo"
+              src="https://toppng.com/uploads/preview/red-twitter-logo-11549680466ua0eyzyb5c.png"
+            />
           </li>
           <li>
             <Link to={"tweets"}>
@@ -64,18 +65,19 @@ export function LeftMenu() {
           </li>
         </ul>
       </div>
-
-      <div className="leftMenuProfile">
-        <img
-          className="profilePic"
-          src="https://i.pinimg.com/474x/b3/d1/35/b3d135bcf65b8472e0021dda91083560.jpg"
-          alt=""
-        />
-        <div className="profileInfo">
-          <h1 className="profileName">Darvin</h1>
-          <h2 className="profileHandle">@darvin</h2>
+      <Link to={"/profile"}>
+        <div className="leftMenuProfile">
+          <img
+            className="profilePic"
+            src="https://i.pinimg.com/474x/b3/d1/35/b3d135bcf65b8472e0021dda91083560.jpg"
+            alt=""
+          />
+          <div className="profileInfo">
+            <h1 className="profileName">Darvin</h1>
+            <h2 className="profileHandle">@darvin</h2>
+          </div>
         </div>
-      </div>
+      </Link>
     </div>
   );
 }

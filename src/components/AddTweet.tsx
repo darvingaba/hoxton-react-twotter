@@ -41,8 +41,8 @@ export function AddTweet(){
         },
         body: JSON.stringify({
           text: value,
-          user: "John",
-          userHandle: "@johnDoe",
+          user: "Darvin",
+          userHandle: "@Darvin",
           profileImageUrl:
             "https://i.pinimg.com/474x/b3/d1/35/b3d135bcf65b8472e0021dda91083560.jpg",
           likeCount: 0,
