@@ -1,0 +1,164 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+body{
+  font-family: Helvetica, sans-serif;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+.App{
+  display: grid;
+  grid-template-columns: 25% 42% 33%;
+  height: 100vh;
+}
+.leftMenu{
+  background-color: #fff;
+  padding-left: 4rem;
+  padding-top: 1rem;
+}
+.leftMenuLinksList{
+  display: grid;
+  gap: 1.2rem;
+}
+
+.leftMenuLinksList  a{
+  font-size: 1.4rem;
+  color: #1e2327;
+}
+.logo{
+  height: 50px;
+  width: 50px;
+}
+.tweetButton{
+  padding: 1rem 4rem;
+  font-size: 20px;
+  font-weight: 700;
+  color: #fff;
+  background-color: #1d9bf0;
+  border-radius: 28px;
+  border: none;
+  cursor: pointer;
+}
+.leftMenuProfile{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 2rem;
+  margin-right: 2rem;
+  margin-left: 2rem;
+  border: 1px solid #e0e0e0;
+  border-radius: 20px;
+}
+.profileName{
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #1e2327;
+}
+.profileHandle{
+  font-size: 1rem;
+  color: #1e232790;
+}
+/* end of left menu */
+.mainMenu{
+  background-color: #fff;
+}
+.oneTweet{
+  display: grid;
+  grid-auto-flow: column;
+  border: 1px solid rgba(0, 0, 0, 0.096);
+  padding-left: .5rem;
+  padding: 2rem 0;
+
+}
+.tweetContent{
+  display: grid;
+  padding-left: 1rem;
+  
+}
+
+.profilePic{
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+.userInfo{
+  display: grid;
+  grid-auto-flow: column;
+  gap: 0;
+  place-items: start;
+  padding-bottom: .7rem;
+}
+.userHandle{
+  position: relative;
+  margin-right: 10rem;
+  color: #1e23279a;
+  font-size: 1rem;
+}
+.time{
+  padding-top: .5rem;
+  color: rgba(128, 128, 128, 0.627);
+}
+.tweetInput{
+  padding: 1rem;
+  border: none;
+  border-radius: 28px;
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #1e2327;
+}
+.inputIcons{
+  display: grid;
+  grid-auto-flow: column;
+  gap: 0;
+  place-items: end;
+  padding-top: 1rem;
+  padding-right: 1rem;
+}
+.inputTweetButton{
+  margin-top: 1rem;
+  margin-left: 2rem;
+  padding: 0.6rem 2rem;
+  font-size: 20px;
+  font-weight: 700;
+  color: #fff;
+  background-color: #1d9cf065;
+  border-radius: 28px;
+  border: none;
+  cursor: pointer;
+}
+.homeTitle{
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #1e2327;
+  padding-top: 1rem;
+  padding-left: 1rem;
+}
+.addTweet{
+  border: 1px solid rgba(0, 0, 0, 0.096);
+}
+.inputAndImage{
+  margin-top: 1rem;
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: center;
+  position: relative;
+  margin-right: 0rem;
+}
+.retweetsAndStuff{
+  display: grid;
+  grid-auto-flow: column;
+  gap: 0;
+  padding-top: 1rem;
+  padding-left: 1rem;
+}
+/* end of main menu */
+.rightMenu{
+  background-color: #fff;
+}

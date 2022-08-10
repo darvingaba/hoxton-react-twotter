@@ -1,0 +1,104 @@
+{
+  "tweets": [
+    {
+      "created_at": "Wed Oct 10 20:19:24 +0000 2018",
+      "id": 1,
+      "text": "To make room for more expression, we will now count all emojis as equal—including those with gender‍‍‍ ‍‍and skin t… https://t.co/MkGjXf9aXm",
+      "user": "Darvin",
+      "userHandle": "@Darvin",
+      "profileImageUrl": "https://i.pinimg.com/474x/b3/d1/35/b3d135bcf65b8472e0021dda91083560.jpg",
+      "likeCount": 0,
+      "retweetCount": 0
+    },
+    {
+      "created_at": "Wed Oct 10 20:19:24 +0000 2019",
+      "id": 2,
+      "text": "Germany has the highest number of emoji in use in the world. Also the highest number of emoji in use in the world. https://t.co/MkGjXf9aXm",
+      "user": "Gerald",
+      "userHandle": "@Gerald",
+      "profileImageUrl": "https://pbs.twimg.com/media/EiG7HYAUwAIidVG.jpg",
+      "likeCount": 0,
+      "retweetCount": 0
+    },
+    {
+      "text": "helloello",
+      "user": "John",
+      "userHandle": "@johnDoe",
+      "profileImageUrl": "https://i.pinimg.com/474x/b3/d1/35/b3d135bcf65b8472e0021dda91083560.jpg",
+      "likeCount": 0,
+      "retweetCount": 0,
+      "id": 3,
+      "created_at": "8/10/2022 18:42:19"
+    },
+    {
+      "text": "helloello",
+      "user": "John",
+      "userHandle": "@johnDoe",
+      "profileImageUrl": "https://i.pinimg.com/474x/b3/d1/35/b3d135bcf65b8472e0021dda91083560.jpg",
+      "likeCount": 0,
+      "retweetCount": 0,
+      "id": 4,
+      "created_at": "8/10/2022 18:43:48"
+    },
+    {
+      "text": "hi",
+      "user": "John",
+      "userHandle": "@johnDoe",
+      "profileImageUrl": "https://i.pinimg.com/474x/b3/d1/35/b3d135bcf65b8472e0021dda91083560.jpg",
+      "likeCount": 0,
+      "retweetCount": 0,
+      "id": 5,
+      "created_at": "8/10/2022 18:59:36"
+    },
+    {
+      "text": "does this work",
+      "user": "John",
+      "userHandle": "@johnDoe",
+      "profileImageUrl": "https://i.pinimg.com/474x/b3/d1/35/b3d135bcf65b8472e0021dda91083560.jpg",
+      "likeCount": 0,
+      "retweetCount": 0,
+      "id": 6,
+      "created_at": "8/10/2022 19:0:22"
+    },
+    {
+      "text": "how is it goign",
+      "user": "John",
+      "userHandle": "@johnDoe",
+      "profileImageUrl": "https://i.pinimg.com/474x/b3/d1/35/b3d135bcf65b8472e0021dda91083560.jpg",
+      "likeCount": 0,
+      "retweetCount": 0,
+      "id": 7,
+      "created_at": "8/10/2022 19:0:46"
+    },
+    {
+      "text": "how is it goign",
+      "user": "John",
+      "userHandle": "@johnDoe",
+      "profileImageUrl": "https://i.pinimg.com/474x/b3/d1/35/b3d135bcf65b8472e0021dda91083560.jpg",
+      "likeCount": 0,
+      "retweetCount": 0,
+      "id": 8,
+      "created_at": "8/10/2022 19:0:48"
+    },
+    {
+      "text": "how about now",
+      "user": "John",
+      "userHandle": "@johnDoe",
+      "profileImageUrl": "https://i.pinimg.com/474x/b3/d1/35/b3d135bcf65b8472e0021dda91083560.jpg",
+      "likeCount": 0,
+      "retweetCount": 0,
+      "id": 9,
+      "created_at": "8/10/2022 19:1:55"
+    },
+    {
+      "text": "i think it is working",
+      "user": "John",
+      "userHandle": "@johnDoe",
+      "profileImageUrl": "https://i.pinimg.com/474x/b3/d1/35/b3d135bcf65b8472e0021dda91083560.jpg",
+      "likeCount": 0,
+      "retweetCount": 0,
+      "id": 10,
+      "created_at": "8/10/2022 19:2:8"
+    }
+  ]
+}
